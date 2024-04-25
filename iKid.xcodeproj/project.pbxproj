@@ -16,6 +16,9 @@
 		41380DA22BD962FC00B3D50F /* iKidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41380DA12BD962FC00B3D50F /* iKidTests.swift */; };
 		41380DAC2BD962FC00B3D50F /* iKidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41380DAB2BD962FC00B3D50F /* iKidUITests.swift */; };
 		41380DAE2BD962FD00B3D50F /* iKidUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41380DAD2BD962FD00B3D50F /* iKidUITestsLaunchTests.swift */; };
+		41380DBB2BD9668000B3D50F /* GoodJokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41380DBA2BD9668000B3D50F /* GoodJokeViewController.swift */; };
+		41380DBD2BD9669A00B3D50F /* PunJokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41380DBC2BD9669A00B3D50F /* PunJokeViewController.swift */; };
+		41380DBF2BD966BE00B3D50F /* DadJokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41380DBE2BD966BE00B3D50F /* DadJokeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		41380DA72BD962FC00B3D50F /* iKidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iKidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41380DAB2BD962FC00B3D50F /* iKidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iKidUITests.swift; sourceTree = "<group>"; };
 		41380DAD2BD962FD00B3D50F /* iKidUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iKidUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		41380DBA2BD9668000B3D50F /* GoodJokeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodJokeViewController.swift; sourceTree = "<group>"; };
+		41380DBC2BD9669A00B3D50F /* PunJokeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunJokeViewController.swift; sourceTree = "<group>"; };
+		41380DBE2BD966BE00B3D50F /* DadJokeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				41380D932BD962FC00B3D50F /* Assets.xcassets */,
 				41380D952BD962FC00B3D50F /* LaunchScreen.storyboard */,
 				41380D982BD962FC00B3D50F /* Info.plist */,
+				41380DBA2BD9668000B3D50F /* GoodJokeViewController.swift */,
+				41380DBC2BD9669A00B3D50F /* PunJokeViewController.swift */,
+				41380DBE2BD966BE00B3D50F /* DadJokeViewController.swift */,
 			);
 			path = iKid;
 			sourceTree = "<group>";
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41380DBB2BD9668000B3D50F /* GoodJokeViewController.swift in Sources */,
 				41380D8F2BD962FA00B3D50F /* ViewController.swift in Sources */,
 				41380D8B2BD962FA00B3D50F /* AppDelegate.swift in Sources */,
 				41380D8D2BD962FA00B3D50F /* SceneDelegate.swift in Sources */,
+				41380DBD2BD9669A00B3D50F /* PunJokeViewController.swift in Sources */,
+				41380DBF2BD966BE00B3D50F /* DadJokeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

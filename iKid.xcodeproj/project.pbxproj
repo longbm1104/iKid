@@ -19,6 +19,7 @@
 		41380DBB2BD9668000B3D50F /* GoodJokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41380DBA2BD9668000B3D50F /* GoodJokeViewController.swift */; };
 		41380DBD2BD9669A00B3D50F /* PunJokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41380DBC2BD9669A00B3D50F /* PunJokeViewController.swift */; };
 		41380DBF2BD966BE00B3D50F /* DadJokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41380DBE2BD966BE00B3D50F /* DadJokeViewController.swift */; };
+		41BC91882BDB15C500B4AD2D /* DisplayJokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BC91872BDB15C500B4AD2D /* DisplayJokeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		41380DBA2BD9668000B3D50F /* GoodJokeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodJokeViewController.swift; sourceTree = "<group>"; };
 		41380DBC2BD9669A00B3D50F /* PunJokeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunJokeViewController.swift; sourceTree = "<group>"; };
 		41380DBE2BD966BE00B3D50F /* DadJokeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokeViewController.swift; sourceTree = "<group>"; };
+		41BC91872BDB15C500B4AD2D /* DisplayJokeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayJokeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				41380DBA2BD9668000B3D50F /* GoodJokeViewController.swift */,
 				41380DBC2BD9669A00B3D50F /* PunJokeViewController.swift */,
 				41380DBE2BD966BE00B3D50F /* DadJokeViewController.swift */,
+				41BC91872BDB15C500B4AD2D /* DisplayJokeViewController.swift */,
 			);
 			path = iKid;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				41380DBB2BD9668000B3D50F /* GoodJokeViewController.swift in Sources */,
 				41380D8F2BD962FA00B3D50F /* ViewController.swift in Sources */,
 				41380D8B2BD962FA00B3D50F /* AppDelegate.swift in Sources */,
+				41BC91882BDB15C500B4AD2D /* DisplayJokeViewController.swift in Sources */,
 				41380D8D2BD962FA00B3D50F /* SceneDelegate.swift in Sources */,
 				41380DBD2BD9669A00B3D50F /* PunJokeViewController.swift in Sources */,
 				41380DBF2BD966BE00B3D50F /* DadJokeViewController.swift in Sources */,

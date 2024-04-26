@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     var dad: DadJokeViewController!
     var good: GoodJokeViewController!
     var pun: PunJokeViewController!
+    var views: [UIViewController?] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,10 +21,23 @@ class ViewController: UIViewController {
         dad = instantiate(id: "dad_joke")
         good = instantiate(id: "good_joke")
         pun = instantiate(id: "pun_joke")
+        views = [good, dad, pun]
         switchViewController(nil, to: dad)
     }
 
     @IBAction func switchView(_ sender: UIBarButtonItem) {
+//        print(sender.tag)
+        
+        var currView: UIViewController?
+        
+        for (idx, v) in views.enumerated() {
+            if v != nil && v!.view.superview != nil {
+                currView = v
+            }
+        }
+        
+        views[sender.tag]!.view.frame = self.view.frame
+        switchViewController(currView, to: views[sender.tag]!)
     }
     
     func instantiate<T>(id: String) -> T! {
